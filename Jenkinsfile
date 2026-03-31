@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/bikram-devops/terraform-proje.git'
+                    url: 'https://github.com/bikram-devops/terraform-project.git'
             }
         }
 
